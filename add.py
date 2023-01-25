@@ -1,11 +1,18 @@
-a=10
-b=20
-c=a+b
-d=a-b
-e=a*b
-f=a/b
-print(c,d,e,f)
-# print(c)
-# print(d)
-# print(e)
-# print(f)
+#def getSum(a, b):
+     return a + b
+# Function to print sum of 2 numbers
+#def printSum(a, b):
+    print(a + b)
+print(getSum(5, 6))
+printSum(5, 6)
+
+
+#def func():
+   global value
+   value = "Local"
+value = "Global"
+func()
+print(value)
+
+def fun(a, b):
+  return a + b
